@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./resources/CSS/style.css">
+    <script type="text/javascript" src="./resources/JS/script.js" defer></script>
+    <script type="text/javascript" src="./resources/JS/TagCloud-master/dist/TagCloud.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8a0cfd0b20.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./resources/CSS/gannt.css">
+</head>    
+<body>
+    
+    <header>
+        <div id="hero">
+
+            <h1>Simone Rossi</h1>
+            <h2>My online CV</h2>
+        
+            <nav id="nav">
+                <figure id="quadro-education" class="quadro flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                           <img src="./resources/images/education.jpg" alt="Open books">
+                        </div>
+                        <a href="#education"><div class="flip-card-back">
+                            <p>Education</p>
+                        </div></a>
+                    </div>   
+
+                </figure>
+                <figure id="quadro-works" class="quadro flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./resources/images/work.jpg" alt="Mouse and keyboard">
+                        </div>
+                       <a href="#works"><div class="flip-card-back">
+                        <p>Professional <br>experience</p>
+                    </div></a>
+            </div>
+                </figure>
+
+                <figure id="quadro-skills" class="quadro flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./resources/images/skill.jpg" alt="Empty chair with cardboard on it that says to think outside the box" id="quadro-img">
+                        </div>
+                    <a href="#skills"><div class="flip-card-back">
+                    <p>Skills</p>
+                </div></a>
+            </div>
+                </figure>
+
+            </nav>
+        </div>
+
+        <div class="lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        
+        <a href="#contacts"><div class="contact">
+            Contact me!
+        </div></a>
+
+    </header>
+
+    
+
+    <!------------------------------------------------------------------------------------>
+
+    <main>
+        <section id="education">
+            <h2>Education</h2>
+                    
+            <div class="chart-wrapper">
+                <ul class="chart-values">
+                  <li>2002</li>
+                  <li>2003</li>
+                  <li>2004</li>
+                  <li>2005</li>
+                  <li>2006</li>
+                  <li>2007</li>
+                  <li>2008</li>
+                  <li>2009</li>
+                  <li>2010</li>
+                  <li>2011</li>
+                  <li>2012</li>
+                  <li>2013</li>
+                  <li>2014</li>
+                  <li>2015</li>
+                  <li>2016</li>
+                  <li>2017</li>
+                  <li>2018</li>
+                  <li>2019</li>
+                  <li>2020</li>
+                  <li>2021</li>
+                </ul>
+
+                <ul class="chart-bars">
+                  <li data-duration="2002A-2005A" data-color="#363636">Aerospace Eng. BSc</li>
+                  <li data-duration="2005A-2007A" data-color="#363636">Aeronautical Eng. MSc</li>
+                  <li data-duration="2008A-2009A" data-color="#363636">ISO 9001 & HSE</li>
+                  <li data-duration="2014A-2015A" data-color="#363636">Welding Eng.</li>
+                  <li data-duration="2013-2019" data-color="#363636">Various MOOCs</li>
+                  <li data-duration="2017A-2020A" data-color="#363636">Enology BSc</li>
+                  <li data-duration="2020A-2021A" data-color="#363636">Web Frontend</li>
+                  <li data-duration="2020A-2021" data-color="#363636">Data analysis Master</li>
+                </ul>
+              </div>
+          
+        </section>
+
+        <section id="works">
+            <h2>Professional experience</h2>
+            <div class="flex-cont">
+            <div class="content">
+                <!-- NECESSARIA PER WORD CLOUD-->
+            </div>
+            <aside>
+                <p>Since 2008 I work for an Italian company in the Oil and Gas market wearing many hats (see the word cloud!), but my real desire was to build something that could really make me proud of. <br></p>
+                <p>I have always had a strong passion for technology and learning (otherwise I wouldn't have graduated in Engineer with the maximum degree.</p>
+                <p><br><br>In 2020, due (or thanks) to the Covid outbreak, I realized I needed to change my life. <br> I started removing rust from all my IT knowledges and learned new ones following on-line courses (on W3C, MDN, IBM, CodeCademy and FreeCodeCamp just to name a few).<br><br></p>
+                <p>My goal now is to change my job and start working in the IT field! <br><br> I am not afraid!</p>
+            </aside>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+                <div id='skill-section' class="flex-cont">
+                    <div id="bar-chart">
+                        <!-- NECESSARIA PER BAR CHART-->
+                    </div>
+                    <div id="tree-map">
+                        <!-- NECESSARIA PER TREE MAP-->
+                    </div>
+                </div>
+        </section>
+
+        <section id="contacts">
+            <h2>Contact me!</h2>
+                <div class="flex-cont">
+                    <a href="https://www.linkedin.com/in/simonerossi1983/" ><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:ro.saimon@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
+                </div>
+                <figure>
+                <img id="contact-image" src="resources/images/contact.jpg">
+                </figure>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
